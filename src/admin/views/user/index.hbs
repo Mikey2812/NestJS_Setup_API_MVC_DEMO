@@ -1,0 +1,693 @@
+<div class='content-header'>
+  <div class='container-fluid'>
+    <div class='row mb-2'>
+      <div class='col-sm-6'>
+        <h1 class='m-0'>Danh sách gia sư</h1>
+      </div>
+      <div class='col-sm-6'>
+        <ol class='breadcrumb float-sm-right'>
+          <li class='breadcrumb-item'><a href=' http://123.30.149.20/admin/home '>Trang chủ</a></li>
+          <li class='breadcrumb-item active'>Danh sách gia sư</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+<section class='content'>
+  <div class='container-fluid'>
+    <div class='row'>
+      <div class='col-12'>
+        <div class='card'>
+          <div class='card-header'>
+            <div class='col-xs-12 col-lg-12'>
+              <div class='row justify-content-between'>
+                <div class='col-sm-2 d-flex justify-content-end w-auto px-0'>
+                  <div>
+                    <div class='d-flex flex-row-reverse'>
+                      <a href='http://123.30.149.20/admin/tutor/create' type='button' id='add-record' class='btn btn-primary'>
+                        <i class='fa fa-plus'></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.card-header -->
+          <div class='card-body'>
+            <div id='example2_wrapper' class='dataTables_wrapper dt-bootstrap4'>
+              <div class='row'>
+                <div class='col-sm-12 col-md-6'></div>
+                <div class='col-sm-12 col-md-6'></div>
+              </div>
+              <div class='row'>
+                <div class='col-sm-12 table-responsive'>
+                  <table id='example2' class='table-bordered table-hover text-nowrap dataTable dtr-inline table' aria-describedby='example2_info'>
+                    <thead>
+                      <tr>
+                        <th class='w-5'></th>
+                        <th class='id icon-sort-header w-5' name='id'>
+                          <span class='me-2'>ID</span>
+                          <i class='fa-solid fa-arrow-down-short-wide' sort_column='id'>
+                          </i>
+                        </th>
+                        <th class='fullname icon-sort-header w-10' name='fullname'>
+                          <span class='me-2'>Họ và tên</span>
+                          <i class='fa-solid fa-sort' sort_column='fullname'>
+                          </i>
+                        </th>
+                        <th class='w-15'>Email - Số điện thoại</th>
+                        <th class='w-10'>Địa chỉ</th>
+                        <th class='w-20'>Công việc hiện tại - Nơi làm việc</th>
+                        <th class='w-10'>Chương trình dạy</th>
+                        <th class='w-10'>Trạng thái</th>
+                        <th class='w-15'>Hành động</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>21</td>
+                        <td>Tutor 20</td>
+                        <td>tutor20@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình du học
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='21' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/21' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/21' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='21'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>20</td>
+                        <td>Tutor 19</td>
+                        <td>tutor19@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình du học
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='20' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/20' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/20' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='20'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>19</td>
+                        <td>Tutor 18</td>
+                        <td>tutor18@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình tiếng Việt
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='19' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/19' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/19' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='19'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>18</td>
+                        <td>Tutor 17</td>
+                        <td>tutor17@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình du học
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='18' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/18' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/18' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='18'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>17</td>
+                        <td>Tutor 16</td>
+                        <td>tutor16@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình tiếng Việt
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='17' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/17' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/17' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='17'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>16</td>
+                        <td>Tutor 15</td>
+                        <td>tutor15@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình du học
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='16' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/16' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/16' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='16'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>15</td>
+                        <td>Tutor 14</td>
+                        <td>tutor14@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình tiếng Việt
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='15' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/15' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/15' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='15'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>14</td>
+                        <td>Tutor 13</td>
+                        <td>tutor13@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình du học
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='14' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/14' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/14' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='14'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>13</td>
+                        <td>Tutor 12</td>
+                        <td>tutor12@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình du học
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='13' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/13' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/13' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='13'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>12</td>
+                        <td>Tutor 11</td>
+                        <td>tutor11@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình tiếng Việt
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='12' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/12' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/12' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='12'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>11</td>
+                        <td>Tutor 10</td>
+                        <td>tutor10@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình du học
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='11' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/11' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/11' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='11'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>10</td>
+                        <td>Tutor 9</td>
+                        <td>tutor9@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình tiếng Việt
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='10' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/10' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/10' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='10'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>9</td>
+                        <td>Tutor 8</td>
+                        <td>tutor8@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình du học
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='9' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/9' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/9' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='9'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>8</td>
+                        <td>Tutor 7</td>
+                        <td>tutor7@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình du học
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='8' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/8' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/8' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='8'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>7</td>
+                        <td>Tutor 6</td>
+                        <td>tutor6@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình du học
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='7' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/7' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/7' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='7'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>6</td>
+                        <td>Tutor 5</td>
+                        <td>tutor5@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình tiếng Việt
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='6' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/6' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/6' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='6'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>5</td>
+                        <td>Tutor 4</td>
+                        <td>tutor4@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình tiếng Việt
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='5' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/5' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/5' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='5'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>4</td>
+                        <td>Tutor 3</td>
+                        <td>tutor3@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình tiếng Việt
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='4' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/4' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/4' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='4'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>3</td>
+                        <td>Tutor 2</td>
+                        <td>tutor2@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình tiếng Việt
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='3' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/3' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/3' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='3'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class=''>
+                        <td>
+                          <input type='checkbox' />
+                        </td>
+                        <td>2</td>
+                        <td>Tutor 1</td>
+                        <td>tutor1@gmail.com - 0988000111</td>
+                        <td>
+                          Phúc Xá - Ba Đình - Hà Nội
+                        </td>
+                        <td> - </td>
+                        <td>
+                          Chương trình tiếng Việt
+                        </td>
+                        <td>
+                          <button class='btn-status btn btn-success change-status' id='2' status='1'>Kích hoạt</button>
+                        </td>
+                        <td class='text-nowrap'>
+                          <a class='btn btn-warning edit-record' href='http://123.30.149.20/admin/tutor/view/2' type='button'>
+                            <i class='fa fa-eye'></i>
+                          </a>
+                          <a class='btn btn-primary edit-record' href='http://123.30.149.20/admin/tutor/edit/2' type='button'>
+                            <i class='fa fa-edit'></i>
+                          </a>
+                          <button class='btn btn-danger delete_record' type='button' data-id='2'>
+                            <i class='fa fa-trash'></i>
+                          </button>
+                        </td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <th class='w-5'></th>
+                        <th class='w-5'>ID</th>
+                        <th class='w-10'>Họ và tên</th>
+                        <th class='w-15'>Email - Số điện thoại</th>
+                        <th class='w-10'>Địa chỉ</th>
+                        <th class='w-20'>Công việc hiện tại - Nơi làm việc</th>
+                        <th class='w-10'>Chương trình dạy</th>
+                        <th class='w-10'>Trạng thái</th>
+                        <th class='w-15'>Hành động</th>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+              </div>
+              <div class='row'>
+                <div class='col-sm-12 col-md-5'>
+                  <div class='dataTables_info' role='status'>Showing 1 to 20 of 20 entries</div>
+                </div>
+                <div class='col-sm-12 col-md-7 d-flex flex-row-reverse'>
+                  <div class='dataTables_paginate paging_simple_numbers'>
+                    <ul class='pagination'>
+                      <li class='paginate_button page-item previous disabled'>
+                        <a href='#' class='page-link'>Previous</a>
+                      </li>
+
+                      <li class='paginate_button page-item active'>
+                        <a href='#' class='page-link disabled'>1</a>
+                      </li>
+                      <li class='paginate_button page-item next disabled'>
+                        <a href='#' class='page-link'>Next</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.card-body -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
